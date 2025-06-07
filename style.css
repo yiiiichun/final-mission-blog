@@ -448,6 +448,11 @@ body{
     background-color: var(--color-white);
     border: none;
     padding-top: 4px;
+    border-radius: 12px;
+}
+
+.contact button:hover{
+    background-color: var(--color-primary-tint);
 }
 
 @media(max-width:1024px){
