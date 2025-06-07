@@ -90,13 +90,24 @@ body{
     color: var(--color-black);
 }
 
-.nav-button-active{
-    color: var(--color-primary);
-    border-bottom:1px solid var(--color-primary) ;
-}
-
 .nav-button:hover{
     color: var(--color-primary-hover);
+}
+
+.nav-button-active{
+    background: 0;
+    border: 0;
+    font-weight: 700;
+    font-size: 28px;
+    padding: 12px;
+    text-decoration: none;
+    color: var(--color-primary);
+    border-bottom:2px solid var(--color-primary);
+}
+
+.nav-button-active:hover{
+    color: var(--color-primary-hover);
+    border-bottom:2px solid var(--color-primary-hover);
 }
 
 .hero-section{
